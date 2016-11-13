@@ -1,0 +1,406 @@
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  height:1000px;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+/* THE BIG BR FIX*/
+.read-more-target br{
+  display:none;
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target br {
+  display:inline;
+}
+/*2 */
+.read2-more-target br{
+  display:none;
+}
+.read2-more-state:checked ~ .read2-more-wrap .read2-more-target br {
+  display:inline;
+}
+/*3*/
+.read3-more-target br{
+  display:none;
+}
+.read3-more-state:checked ~ .read3-more-wrap .read3-more-target br {
+  display:inline;
+}
+/*4*/
+.read4-more-target br{
+  display:none;
+}
+.read4-more-state:checked ~ .read4-more-wrap .read4-more-target br {
+  display:inline;
+}
+/*5*/
+.read5-more-target br{
+  display:none;
+}
+.read5-more-state:checked ~ .read5-more-wrap .read5-more-target br {
+  display:inline;
+}
+/*6*/
+.read6-more-target br{
+  display:none;
+}
+.read6-more-state:checked ~ .read6-more-wrap .read6-more-target br {
+  display:inline;
+}
+/*7*/
+.read7-more-target br{
+  display:none;
+}
+.read7-more-state:checked ~ .read7-more-wrap .read7-more-target br {
+  display:inline;
+}
+/*8*/
+.read8-more-target br{
+  display:none;
+}
+.read8-more-state:checked ~ .read8-more-wrap .read8-more-target br {
+  display:inline;
+}
+/*9*/
+.read9-more-target br{
+  display:none;
+}
+.read9-more-state:checked ~ .read9-more-wrap .read9-more-target br {
+  display:inline;
+}
+/* THE BIG BR FIX*/
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Her Answer';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Hide Answer';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/*  second one  */
+.read2-more-state {
+  display: none;
+}
+
+.read2-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read2-more-state:checked ~ .read2-more-wrap .read2-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read2-more-state ~ .read2-more-trigger:before {
+  content: 'Her Answer';
+}
+
+.read2-more-state:checked ~ .read2-more-trigger:before {
+  content: 'Hide Answer';
+}
+
+.read2-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/*  third one  */
+.read3-more-state {
+  display: none;
+}
+
+.read3-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read3-more-state:checked ~ .read3-more-wrap .read3-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read3-more-state ~ .read3-more-trigger:before {
+  content: 'Her Answer';
+}
+
+.read3-more-state:checked ~ .read3-more-trigger:before {
+  content: 'Hide Answer';
+}
+
+.read3-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/*  fourth one  */
+.read4-more-state {
+  display: none;
+}
+
+.read4-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read4-more-state:checked ~ .read4-more-wrap .read4-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read4-more-state ~ .read4-more-trigger:before {
+  content: 'Her Answer';
+}
+
+.read4-more-state:checked ~ .read4-more-trigger:before {
+  content: 'Hide Answer';
+}
+
+.read4-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/*  fifth one  */
+.read5-more-state {
+  display: none;
+}
+
+.read5-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read5-more-state:checked ~ .read5-more-wrap .read5-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read5-more-state ~ .read5-more-trigger:before {
+  content: 'Her Answer';
+}
+
+.read5-more-state:checked ~ .read5-more-trigger:before {
+  content: 'Hide Answer';
+}
+
+.read5-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/*  sixth one  */
+.read6-more-state {
+  display: none;
+}
+
+.read6-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read6-more-state:checked ~ .read6-more-wrap .read6-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read6-more-state ~ .read6-more-trigger:before {
+  content: 'Her Answer';
+}
+
+.read6-more-state:checked ~ .read6-more-trigger:before {
+  content: 'Hide Answer';
+}
+
+.read6-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/*  seventh one  */
+.read7-more-state {
+  display: none;
+}
+
+.read7-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read7-more-state:checked ~ .read7-more-wrap .read7-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read7-more-state ~ .read7-more-trigger:before {
+  content: 'Her Answer';
+}
+
+.read7-more-state:checked ~ .read7-more-trigger:before {
+  content: 'Hide Answer';
+}
+
+.read7-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/*  eigth one  */
+.read8-more-state {
+  display: none;
+}
+
+.read8-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read8-more-state:checked ~ .read8-more-wrap .read8-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read8-more-state ~ .read8-more-trigger:before {
+  content: 'Her Answer';
+}
+
+.read8-more-state:checked ~ .read8-more-trigger:before {
+  content: 'Hide Answer';
+}
+
+.read8-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/*  ninth one  */
+.read9-more-state {
+  display: none;
+}
+
+.read9-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read9-more-state:checked ~ .read9-more-wrap .read9-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read9-more-state ~ .read9-more-trigger:before {
+  content: 'Her Answer';
+}
+
+.read9-more-state:checked ~ .read9-more-trigger:before {
+  content: 'Hide Answer';
+}
+
+.read9-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+/* Other style */
+body {
+}
+
+p {
+  padding: 2%;
+  background: transparent;
+  color: black;
+  border-radius: .25em;
+}

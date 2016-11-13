@@ -1,0 +1,133 @@
+* {
+      -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+.feature-img {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+blockquote.option1 {
+  background: #f5f5f5;
+}
+
+blockquote.option2 {
+  background: #50af47;
+    color: white;
+}
+
+
+blockquote.option5 {
+  border-top: 2px solid #FF005D;
+  border-bottom: 2px solid #FF005D;
+  margin: 20px 60px;
+
+}
+blockquote.option3 {
+  border-left: 6px solid #50af47;
+   background: #f5f5f5;
+}
+
+blockquote.option4 {
+  text-align: center;
+   background: #f5f5f5;
+}
+
+blockquote {
+
+  margin: 30px;
+  padding: 30px 40px;
+  font-size: 25px;
+    font-weight:2000px;
+   content: '\201C';
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.6em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+  content: '\201C';
+}
+
+blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.4em;
+  left:70%;
+  content: '\201D';
+  position:absolute;
+}
+
+
+blockquote.option2:before {
+  color: white;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+    content: '\201C';
+}
+
+blockquote.option4:before {
+  color: #FF005D;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 100em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+    content: '\201C';
+}
+
+blockquote p {
+  position: relative;
+}
+blockquote.option4 p:after {
+ content: '';
+ position: absolute;
+    width: 20%;
+    height: 4px;
+    background: #FF005D;;
+    top: 100%;
+    left: 0;
+    transform: translate(-50%,-50%);
+    left: 50%;
+}
+
+blockquote.option4 hr {
+
+    display: block;
+
+    width: 30%;
+    margin: 40px;
+     height: 1px;
+
+  margin: 0 auto;
+}
+
+blockquote.option6 p {
+  position: relative;
+}
+
+blockquote.option6 p:after {
+
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 3px;
+    background: #FF005D;
+    top: 100%;
+    left: 0;
+
+}

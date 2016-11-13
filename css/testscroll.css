@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+a {
+  cursor: pointer;
+}
+#top {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background: url("https://secure.static.tumblr.com/2a2502bc419509bcc0902ae33eb4d7d7/phjbi8c/aa5n28xuz/tumblr_static_wallpaper-3400.jpg") #3f51b5 top center no-repeat;
+  background-size: cover;
+}
+#one,
+#two {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  padding-top: 200px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 5em;
+}
+#one {
+  background-color: #ca2323;
+}
+#two {
+  position: relative;
+  background-color: #fba934;
+}
+.fa-angle-down {
+  position: absolute;
+  bottom: 0;
+  -webkit-animation: jump 1.5s infinite;
+          animation: jump 1.5s infinite;
+}
+.fa-angle-up {
+  position: absolute;
+  bottom: 1px;
+  right: 30px;
+  color: #000;
+  font-size: 1em;
+}
+@-webkit-keyframes jump {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+@keyframes jump {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
